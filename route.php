@@ -1,5 +1,5 @@
 <?php
-require_once 'Controllers\CancionController.php';
+require_once("Controllers\CancionController.php");
 require_once 'Controllers\ArtistaController.php';
 require_once 'Controllers\HomeController.php';
 require_once 'Controllers\UserController.php';
