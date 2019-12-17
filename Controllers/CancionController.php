@@ -1,7 +1,7 @@
 <?php
-require_once '.\Models\CancionModel.php';
-require_once '.\Models\ArtistaModel.php';
-require_once '.\Views\CancionView.php';
+require_once 'Models/CancionModel.php';
+require_once 'Models/ArtistaModel.php';
+require_once 'Views/CancionView.php';
 
 class CancionController {
     private $model;

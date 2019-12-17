@@ -1,6 +1,6 @@
 <?php
-require_once '.\Models\ArtistaModel.php';
-require_once '.\Views\ArtistaView.php';
+require_once 'Models/ArtistaModel.php';
+require_once 'Views/ArtistaView.php';
 
 class ArtistaController {
     protected $model;

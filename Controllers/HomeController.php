@@ -1,5 +1,5 @@
 <?php
-require_once(".\Views\HomeView.php");
+require_once("Views/HomeView.php");
 
 class HomeController {
     private $view;
