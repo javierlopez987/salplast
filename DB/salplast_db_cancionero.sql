@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
--- Servidor: 127.0.0.1
--- Tiempo de generación: 12-12-2019 a las 22:32:05
--- Versión del servidor: 10.1.39-MariaDB
--- Versión de PHP: 7.3.5
+-- Servidor: 10.0.10.39:3306
+-- Tiempo de generación: 18-12-2019 a las 18:06:11
+-- Versión del servidor: 10.1.19-MariaDB
+-- Versión de PHP: 7.3.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -42,9 +42,9 @@ CREATE TABLE `artistas` (
 --
 
 INSERT INTO `artistas` (`id`, `nombre`, `apellido`, `fechanac`, `ranking`, `imagen`) VALUES
-(3, 'Alejandro', 'Lerner', '1951-11-10', 10, 'img/artista/5de01e8c20834.jpg'),
+(3, 'Alejandro', 'Lerner', '1951-11-10', 10, ''),
 (7, 'Juan Luis', 'Guerra', '1957-06-07', 5, ''),
-(9, 'Shakira', 'Barranquilla', '1978-01-20', 10, 'img/artista/5de01e5fa9a1a.jpg'),
+(9, 'Shakira', 'Barranquilla', '1978-01-20', 10, ''),
 (11, 'Ricky', 'Martin', '1972-10-10', 8, '');
 
 -- --------------------------------------------------------

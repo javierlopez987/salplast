@@ -8,7 +8,7 @@ class Database {
 
     private function __construct() {
         try {
-            $this->usuario = 'salplast_admin';
+            $this->usuario = 'cpses_sat8kcc0lz';
             $this->clave = 'Administrador_22';
             $this->connection = new PDO('mysql: host=10.0.10.39;dbname=salplast_db_cancionero;port=3306', $this->usuario, $this->clave);
         } catch (PDOException $e) {
