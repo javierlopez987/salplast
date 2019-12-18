@@ -2,11 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home8/salplast/prueba.salplast.net/
-    - /bin/cp -R Controllers $DEPLOYPATH
-    - /bin/cp -R Models $DEPLOYPATH
-    - /bin/cp -R Views $DEPLOYPATH
-    - /bin/cp -R templates $DEPLOYPATH
-    - /bin/cp -R DB $DEPLOYPATH
+    - /bin/cp -R Repositories $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R libs $DEPLOYPATH
