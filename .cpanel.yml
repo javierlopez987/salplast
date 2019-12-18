@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home8/salplast/prueba.salplast.net/
-    - /repositories/cp -R salplast $DEPLOYPATH
+    - /bin/cp -R salplast $DEPLOYPATH
