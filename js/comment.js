@@ -7,10 +7,10 @@ let app = new Vue({
         comments: [],
         auth: false,
         promedio: 0
-    },
+    }/* ,
     methods: {
         borrar: deleteComment()
-    }
+    } */
 })
 
 function getComments(cancion) {
@@ -55,7 +55,7 @@ function addComment(e) {
      .catch(error => console.log(error));
 }
 
-function deleteComment(e) {
+/* function deleteComment(e) {
     e.preventDefault();
     let id = document.querySelector("#btn-borrar").value;
     fetch('api/comments/id', {
@@ -67,4 +67,4 @@ function deleteComment(e) {
         getComments(data.cancion);
      })
      .catch(error => console.log(error));
-}
+} */
