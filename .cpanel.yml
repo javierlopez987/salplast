@@ -2,8 +2,19 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home8/salplast/prueba.salplast.net/
-    - /bin/cp -R Repositories $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp route.php $DEPLOYPATH
+    - /bin/cp route-api.php $DEPLOYPATH
+    - /bin/cp Router.php $DEPLOYPATH
+    - /bin/cp Session.php $DEPLOYPATH
+    - /bin/cp UserHelper.php $DEPLOYPATH
+    - /bin/cp -R Controllers $DEPLOYPATH
+    - /bin/cp -R Models $DEPLOYPATH
+    - /bin/cp -R Views $DEPLOYPATH
+    - /bin/cp -R templates $DEPLOYPATH
+    - /bin/cp -R DB $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R libs $DEPLOYPATH
     - /bin/cp -R vue $DEPLOYPATH
+    - /bin/cp -R Repositories $DEPLOYPATH
+    - /bin/cp -R api $DEPLOYPATH
