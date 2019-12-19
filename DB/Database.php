@@ -10,10 +10,10 @@ class Database {
 
     private function __construct() {
         try {
-            //$this->host = '10.0.10.39';
-            //$this->port = '3306';
-            $this->host = '127.0.0.1';
-            $this->port = '';
+            $this->host = '10.0.10.39';
+            $this->port = '3306';
+            //$this->host = '127.0.0.1';
+            //$this->port = '';
             $this->usuario = 'salplast_admin';
             $this->clave = 'Administrador_22';
             $this->connection = new PDO('mysql:host='. $this->host .';dbname=salplast_db_cancionero;charset=utf8;port='. $this->port, $this->usuario, $this->clave);
