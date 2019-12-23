@@ -16,7 +16,7 @@ let app = new Vue({
 function getComments(cancion) {
     fetch("api/comments/" + cancion, {
         method: 'GET',
-        headers: {'Content-Type': 'application/json'}       
+        headers: {'Content-Type': 'application/json'}
      })
     .then(response => response.json())
     .then(comments => {
