@@ -27,6 +27,7 @@ function getComments(cancion) {
             cuenta++;
         }
         let promedio = suma/cuenta;
+        console.log(comments);
         app.comments = comments;
         app.promedio = promedio;
     })
