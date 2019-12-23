@@ -33,9 +33,9 @@ function getComments(cancion) {
 let cancion = document.querySelector("#idCancion").value;
 getComments(cancion);
 
-document.querySelector("#form-comment").addEventListener('submit', addComment);
+//document.querySelector("#form-comment").addEventListener('submit', addComment);
 
-function addComment(e) {
+/* function addComment(e) {
     e.preventDefault();
     
     let data = {
@@ -53,7 +53,7 @@ function addComment(e) {
         getComments(data.cancion);
      })
      .catch(error => console.log(error));
-}
+} */
 
 /* function deleteComment(e) {
     e.preventDefault();
